@@ -323,3 +323,38 @@ section{
     border:5px solid #00d4ff;
     box-shadow:0 0 35px rgba(0,212,255,.5);
 }
+@media (max-width: 768px) {
+
+.hero{
+    flex-direction: column;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero-content{
+    width:100%;
+}
+
+.hero-image img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:30px;
+}
+
+.navbar{
+    flex-direction:column;
+    gap:20px;
+}
+
+.nav-links{
+    flex-direction:column;
+    gap:15px;
+}
+
+.buttons{
+    justify-content:center;
+}
+
+}
