@@ -76,6 +76,8 @@ header{
     background:
     radial-gradient(circle at top,#00d4ff22,transparent 40%),
     linear-gradient(135deg,#0a0f1f,#111827);
+    background-size: 300% 300%;
+animation: gradientAnimation 8s ease infinite;
 }
 
 .hero-content{
@@ -301,4 +303,15 @@ section{
     padding:80px 8%;
 }
 
+}
+@keyframes gradientAnimation{
+    0%{
+        background-position:0% 50%;
+    }
+    50%{
+        background-position:100% 50%;
+    }
+    100%{
+        background-position:0% 50%;
+    }
 }
